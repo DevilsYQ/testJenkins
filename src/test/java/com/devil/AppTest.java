@@ -30,9 +30,6 @@ public class AppTest
     @Rollback(false)
     public void shouldAnswerWithTrue()
     {
-        System.out.println("------");
-        User user = new User();
-        user.setName("haha");
-        mapper.insertUser(user);
+
     }
 }
